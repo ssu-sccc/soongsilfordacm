@@ -21,7 +21,6 @@ public:
     void get_lcp(char *str)
     {
         int len = strlen(str); int h = 0,mmx = 0;
-        //printf("%s\n",str);
         int loc = -1;
         int lo;
         for(int i=0;i<len;i++)
@@ -41,12 +40,10 @@ public:
             lcp[Rank[i]] = h;
             if(h) h--;
         }
-        //lcp calc end.
-        
-        //progress
+
+        //process
         for(int i=1;i<len;i++)
         {
-            //printf("%s\n%s\n\n",str+SA[i],str+SA[i-1]);
             if((SA[i]<loc&&SA[i-1]>loc)||(SA[i]>loc&&SA[i-1]<loc))
             {
                 if(mmx<lcp[i])
