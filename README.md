@@ -34,7 +34,7 @@ Soongsil University's Algorithm Study Group : Soongsil Computing Contest Club's 
 [MartianLee](https://github.com/MartianLee)
 [0xc0DEF](https://github.com/0xC0DEF)
 [king7282](https://github.com/king7282)
-
+[sys7961](https://github.com/neinsys)
 
 ## COPYRIGHT
 GNU General Public License version 3.0 (GPLv3)
